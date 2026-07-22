@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas/box</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            /* 
+            border-width: 10px;
+            border-style: solid;
+            border-color: black;
+
+            tudo isso pode ser simplificado em border: 10px solid black; sempre na ordem a cima
+
+            */
+
+            border: 10px solid black;
+
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            
+            a mesma coisa que a borda mas se os 4 valores forem igual pode colocar apenas um deles se voce colocar 2 
+
+            */
+
+            padding: 10px;
+
+            /*
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            */
+
+            margin: 10px;
+
+            /* margin: auto sempre deixa as caixas/box no meio da tela */
+
+            /*
+            outline-width: 5;
+            outline-style: dashed;
+            outline-color: blue;
+            */
+
+            outline: 5 dashed blue;
+        }
+        a {
+            /*
+            border-color: red;
+            border-style: solid;
+            border-width: 10px;
+            */
+            border: red solid 10px;
+
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Exemplo de caixa box-level
+    </h1>
+    <p>
+        paragrafos tambem são box-level mas os <a href="#">links  são inline-level</a> vamos ver como isso funciona 
+    </p>
+</body>
+</html>

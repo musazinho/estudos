@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinâmicas</title>
+</head>
+<body>
+    <h1>
+        imagens dinâmicas
+    </h1>
+    <p>
+        Esta é uma página com imagens dinâmicas. abra em outros dipositivos para ver a diferença.
+    </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagems/imagem_p.png" type="image/png">
+        <source media="(max-width:1000px )" srcset="imagems/imagem_m.png" type="image/png">
+        <img src="imagems/imagem_g.png" alt="imagem grande">
+    </picture>
+    <h1>
+        reprotuzindo audios
+    </h1>
+    <p>
+        jeito certo
+    </p>
+    <!-- jeito errado-->
+    <audio src="midias/Fly-day_Chinatown _ Yasuha_Official Lyric_Video.mp3" controls autoplay ></audio>
+        <p>
+        jeito errado
+    </p>
+    <!-- jeito certo-->
+    <audio preload="auto" controls autoplay loop>
+        <source src="midias/Fly-day_Chinatown _ Yasuha_Official Lyric_Video.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

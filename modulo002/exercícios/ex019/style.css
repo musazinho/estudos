@@ -1,0 +1,37 @@
+/*
+    tudo que e id em html = #
+    tudo que e class em html = .
+*/
+
+@charset "UTF-8";
+
+body {
+    background-color: rgb(132, 0, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: rgb(47, 0, 90);
+}
+h1#principal {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(74, 0, 143);
+}
+
+.subtitulo {
+    color: rgb(52, 0, 148);
+}
+
+.basico {
+    color: rgb(132, 66, 255);
+}
+.intermediario {
+    color: rgb(150, 93, 255);
+}
+.avancado {
+    color: rgb(160, 109, 255)    
+}
